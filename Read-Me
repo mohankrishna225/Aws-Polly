@@ -1,0 +1,16 @@
+# Aws-Polly
+This Code converts the input-text into Life Like Speech using Amazon Polly Service using python 
+Polly is Cost-effective as it's Pay-as-you-go service
+Free Tier of 5M characters/month in first year
+
+#installation
+Install python environment
+>>pip install awscli
+>>pip install boto3
+>>aws configure
+Enter the AWS access keys and Set a region in Configure
+Now verify whether its's Installed correctly
+>>import boto3
+>>polly = boto3.client('polly')
+>>polly.describe_voices()
+Now run the polly.py file and Enter the text you want to listen.Thats's it :)
